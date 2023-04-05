@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* title */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    padding: 0 10px;
+}
+
+.subtitle {
+    margin: 4px;
+    text-align: center;
+}
+/* header */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+.menu-triangle {
+    background-color: #008fcd;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+    border: 1px solid #008fcd;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75)
+}
+
+.title-form {
+    text-align: center;
+    padding: 10px;
+    background-color: #008fcd;
+    color: white;
+}
+
+.image-triangle {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.image-parallelogram {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+}
+
+.rumus {
+    text-align: center;
+}
+
+.subtitle-form {
+    text-align: center;
+    margin: 3px;
+}
+
+.inputan {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-count {
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+.inputan > input {
+    padding: 5px;
+    border-radius: 6px;
+    width: 100%;
+}
+.submited {
+    text-align: center;
+    
+}
+.submited > button {
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.submited > .submit {
+    background-color: #008fcd;
+    padding: 8px;
+}
+
+.submited > .reset {
+    background-color: orange;
+    padding: 6px;
+}
